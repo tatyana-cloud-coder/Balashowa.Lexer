@@ -1,0 +1,10 @@
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\bin\Debug\Balashowa.Lexer.exe.config
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\bin\Debug\Balashowa.Lexer.exe
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\bin\Debug\Balashowa.Lexer.pdb
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\obj\Debug\Balashowa.Lexer.csprojAssemblyReference.cache
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\obj\Debug\Balashowa.Lexer.csproj.CoreCompileInputs.cache
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\obj\Debug\Balashowa.Lexer.exe
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\obj\Debug\Balashowa.Lexer.pdb
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\balas\Desktop\Учеба\4 курс\ФЯиТ\Balashowa.Lexer\Balashowa.Lexer\obj\Debug\Balashowa.Lexer.csproj.CopyComplete

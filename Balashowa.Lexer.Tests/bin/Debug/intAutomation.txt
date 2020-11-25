@@ -1,0 +1,220 @@
+{
+  "Transitions": [
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "+"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "-"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "0"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "1"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "1"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "1"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "2"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "2"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "2"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "3"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "3"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "3"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "4"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "4"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "4"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "5"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "5"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "5"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "6"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "6"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "6"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "7"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "7"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "7"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "8"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "8"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "8"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "9"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "9"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "9"
+      },
+      "Value": 3
+    }
+  ],
+  "MarkerState": 0,
+  "StartState": 1,
+  "Priority": 1,
+  "FinishState": [
+    3
+  ]
+}

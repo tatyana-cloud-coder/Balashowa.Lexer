@@ -1,0 +1,122 @@
+{
+  "Transitions": [
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "+"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "-"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "*"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "/"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "="
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "<"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": ">"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "="
+      },
+      "Value": 4
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": ";"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "("
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": ")"
+      },
+      "Value": 9
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "{"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "}"
+      },
+      "Value": 6
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "&"
+      },
+      "Value": 8
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "&"
+      },
+      "Value": 10
+    }
+  ],
+  "MarkerState": 0,
+  "StartState": 1,
+  "Priority": 3,
+  "FinishState": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "Transitions": [
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "!"
+      },
+      "Value": 1
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "t"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "r"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "u"
+      },
+      "Value": 4
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "e"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "f"
+      },
+      "Value": 6
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "a"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "l"
+      },
+      "Value": 8
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "s"
+      },
+      "Value": 9
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "e"
+      },
+      "Value": 10
+    }
+  ],
+  "MarkerState": 0,
+  "StartState": 1,
+  "Priority": 3,
+  "FinishState": [
+    5,
+    10
+  ]
+}

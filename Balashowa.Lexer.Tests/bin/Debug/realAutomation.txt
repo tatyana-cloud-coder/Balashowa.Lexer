@@ -1,0 +1,734 @@
+{
+  "Transitions": [
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "0"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "0"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "0"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "0"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "0"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "0"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "0"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "0"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "0"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "1"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "1"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "1"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "1"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "1"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "1"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "1"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "1"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "1"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "2"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "2"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "2"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "2"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "2"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "2"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "2"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "2"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "2"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "3"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "3"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "3"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "3"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "3"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "3"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "3"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "3"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "3"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "4"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "4"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "4"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "4"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "4"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "4"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "4"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "4"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "4"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "5"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "5"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "5"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "5"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "5"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "5"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "5"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "5"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "5"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "6"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "6"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "6"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "6"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "6"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "6"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "6"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "6"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "6"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "7"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "7"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "7"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "7"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "7"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "7"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "7"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "7"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "7"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "8"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "8"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "8"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "8"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "8"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "8"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "8"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "8"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "8"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "9"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "9"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "9"
+      },
+      "Value": 3
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "9"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "9"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 6,
+        "Value": "9"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 7,
+        "Value": "9"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "9"
+      },
+      "Value": 7
+    },
+    {
+      "Key": {
+        "Key": 9,
+        "Value": "9"
+      },
+      "Value": 5
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "+"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "-"
+      },
+      "Value": 2
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "+"
+      },
+      "Value": 6
+    },
+    {
+      "Key": {
+        "Key": 8,
+        "Value": "-"
+      },
+      "Value": 6
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "."
+      },
+      "Value": 4
+    },
+    {
+      "Key": {
+        "Key": 2,
+        "Value": "."
+      },
+      "Value": 9
+    },
+    {
+      "Key": {
+        "Key": 1,
+        "Value": "."
+      },
+      "Value": 9
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "e"
+      },
+      "Value": 8
+    },
+    {
+      "Key": {
+        "Key": 3,
+        "Value": "E"
+      },
+      "Value": 8
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "e"
+      },
+      "Value": 8
+    },
+    {
+      "Key": {
+        "Key": 4,
+        "Value": "E"
+      },
+      "Value": 8
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "e"
+      },
+      "Value": 8
+    },
+    {
+      "Key": {
+        "Key": 5,
+        "Value": "E"
+      },
+      "Value": 8
+    }
+  ],
+  "MarkerState": 0,
+  "StartState": 1,
+  "Priority": 1,
+  "FinishState": [
+    3,
+    4,
+    5,
+    7
+  ]
+}
