@@ -2,12 +2,12 @@
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-
+using System.Collections;
 namespace Balashowa.Lexer.Tests
 {
     [TestClass]
     public class LexerTests
-    { 
+    {
         [TestMethod]
         public void toRecognozeIntFirstTest()
         {
@@ -33,7 +33,7 @@ namespace Balashowa.Lexer.Tests
             var resultPair = automation.toRecognize(inputString, skip);
             Assert.AreEqual(expactedPair, resultPair);
         }
-        [TestMethod] 
+        [TestMethod]
         public void toRecognizeRealFirstTest()
         {
             DataProvider dataProvider = new DataProvider();
@@ -82,6 +82,74 @@ namespace Balashowa.Lexer.Tests
             var expectedPair = new KeyValuePair<bool, int>(false, 0);
             var resultPair = automation.toRecognize(inputText, skip);
             Assert.AreEqual(expectedPair, resultPair);
+        }
+        [TestMethod]
+        public void toRecognizeCodeFirstTest()
+        {
+            DataProvider dataProvider = new DataProvider();
+            Lexer lexer = dataProvider.GetLexer();
+            var expectedSet = new HashSet<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string> ("int", "keyword"),
+                new KeyValuePair<string, string>(" ", "space"),
+                new KeyValuePair<string, string>("a", "ID"),
+                new KeyValuePair<string, string>("=", "operation"),
+                new KeyValuePair<string, string>("123", "int")
+            };
+            bool expected = true;
+            using (StreamReader streamReader = new StreamReader("sampleCode.txt"))
+            {
+                int skip = 0;
+                var actuallySet = lexer.toRecognizeCode(streamReader.ReadToEnd(), ref skip);
+                bool actually = actuallySet.SetEquals(expectedSet);
+                Assert.AreEqual(expected, actually);
+            }
+        }
+        [TestMethod]
+        public void toRecognizeCodeSecondTest()
+        {
+            DataProvider dataProvider = new DataProvider();
+            Lexer lexer = dataProvider.GetLexer();
+            var expectedSet = new HashSet<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string, string> ("int", "keyword"),
+                new KeyValuePair<string, string>(" ", "space"),
+                new KeyValuePair<string, string>("a", "ID"),
+                new KeyValuePair<string, string>("=", "operation"),
+                new KeyValuePair<string, string>("123", "int"),
+                new KeyValuePair<string, string>(";", "operation"),
+                new KeyValuePair<string, string>(Environment.NewLine, "space"),
+                new KeyValuePair<string, string>("double", "keyword"),
+                new KeyValuePair<string, string>("b", "ID"),
+                new KeyValuePair<string, string>("2.2e5", "real"),
+                new KeyValuePair<string, string>("bool", "keyword"),
+                new KeyValuePair<string, string>("break", "keyword"),
+                new KeyValuePair<string, string>("false", "bool"),
+                new KeyValuePair<string, string>(Environment.NewLine+Environment.NewLine, "space"),
+                new KeyValuePair<string, string>("while", "keyword"),
+                new KeyValuePair<string, string>("(", "operation"),
+                new KeyValuePair<string, string>(">", "operation"),
+                new KeyValuePair<string, string>("&&", "operation"),
+                new KeyValuePair<string, string>(")", "operation"),
+                new KeyValuePair<string, string>("{", "operation"),
+                new KeyValuePair<string, string>(Environment.NewLine+ " " + " ", "space"),
+                new KeyValuePair<string, string>("-", "operation"), 
+                new KeyValuePair<string, string> ("if", "keyword"),
+                new KeyValuePair<string, string>("<=", "operation"),
+                new KeyValuePair<string, string>("0", "real"),
+                new KeyValuePair<string, string>(Environment.NewLine + " " + " " + " " + " ", "space"),
+                new KeyValuePair<string, string>("}", "operation"),
+                new KeyValuePair<string, string>("/", "operation"),
+                new KeyValuePair<string, string>("15.0", "real"),
+            };
+            bool expected = true;
+            using (StreamReader streamReader = new StreamReader("code.txt"))
+            {
+                int skip = 0;
+                var actuallySet = lexer.toRecognizeCode(streamReader.ReadToEnd(), ref skip);
+                bool actually = actuallySet.SetEquals(expectedSet);
+                Assert.AreEqual(expected, actually);
+            }
         }
     }
 }
