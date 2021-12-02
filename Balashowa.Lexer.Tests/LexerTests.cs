@@ -6,7 +6,7 @@ using System.Collections;
 namespace Balashowa.Lexer.Tests
 {
     [TestClass]
-    public class LexerTests
+    public class LexerTest3
     {
         //fake commit for jenkins test2
         [TestMethod]
