@@ -8,6 +8,7 @@ namespace Balashowa.Lexer.Tests
     [TestClass]
     public class LexerTests
     {
+        //fake commit for jenkins test
         [TestMethod]
         public void toRecognozeIntFirstTest()
         {
